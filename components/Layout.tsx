@@ -1,4 +1,4 @@
-import Sidebar from "./layout/Sidebar"
+import Sidebar from "./layout/Sidebar";
 
 interface LayoutProps {
   children: React.ReactNode;
