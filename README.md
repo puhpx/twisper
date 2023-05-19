@@ -1,38 +1,82 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Twisper 💬
 
-## Getting Started
+Twisper is a microblogging application, heavily inspired by Twitter, where users can share their thoughts with others, interact through 'Whisper' likes and comments, follow others, and more!
 
-First, run the development server:
+## 🌟 Features
+
+- 📝 Create, Read, Update, and Delete 'Whispers'
+- 👥 User Authentication and Profile Management
+- 👣 Follow / Unfollow Users
+- 🔔 Real-Time Notifications
+- 🌓 Dark/Light Mode
+
+## 🚀 Getting Started
+
+To get a local copy up and running, follow these simple steps:
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/puhpx/twisper.git
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Add your environment variables in the `.env` file:
+
+```bash
+cp .env.example .env.local
+```
+
+4. Run the application in development mode:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## ✅ Running Tests
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+```bash
+npm test
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## 🛠 Built With
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- [React](https://reactjs.org/) - A JavaScript library for building user interfaces
+- [Next.js](https://nextjs.org/) - The React Framework
+- [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework
+- [Prisma](https://www.prisma.io/) - Next-generation Node.js and TypeScript ORM
+- [MongoDB](https://www.mongodb.com/) - The database for modern applications
+- [NextAuth.js](https://next-auth.js.org/) - Authentication for Next.js
+- [Vercel](https://vercel.com/) - Deploy web projects with a single command
 
-## Learn More
+## 📝 License
 
-To learn more about Next.js, take a look at the following resources:
+This project is [MIT](https://github.com/puhpx/twisper/blob/main/LICENSE.md) licensed.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🙏 Acknowledgements
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- [OpenAI](https://www.openai.com/)
+- [Vercel](https://vercel.com/)
+- [NextAuth.js](https://next-auth.js.org/)
+- [Prisma](https://www.prisma.io/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [React](https://reactjs.org/)
+- [Next.js](https://nextjs.org/)
+- [MongoDB](https://www.mongodb.com/)
 
-## Deploy on Vercel
+## 📬 Contact Information
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+For any other questions or collaboration inquiries, please reach out:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Email: [chuckthedeveloper@gmail.com](chuckthedeveloper@gmail.com)
+
+## 🎉 Show Your Support
+
+Give a ⭐️ if this project helped you!
