@@ -7,7 +7,9 @@ const SidebarLogo = () => {
   const router = useRouter();
 
   return (
-    <div className="
+    <div
+      onClick={() => router.push('/')}
+      className="
       rounded-full
       h-20
       w-20
