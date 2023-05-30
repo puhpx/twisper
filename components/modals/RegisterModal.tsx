@@ -5,7 +5,7 @@ import Input from "../Input";
 import Modal from "../Modal";
 
 const RegisterModal = () => {
-  const LoginModal = useLoginModal();
+  const loginModal = useLoginModal();
   const registerModal = useRegisterModal();
 
   const [email, setEmail] = useState('');
@@ -20,8 +20,8 @@ const RegisterModal = () => {
     }
 
     registerModal.onClose();
-    LoginModal.onOpen();
-  }, [isLoading, registerModal, LoginModal])
+    loginModal.onOpen();
+  }, [isLoading, registerModal, loginModal])
 
   const onSubmit = useCallback(async () => {
     try {
