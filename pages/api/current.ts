@@ -1,5 +1,7 @@
 import { NextApiRequest, NextApiResponse } from "next";
 
+import serverAuth from '@/libs/serverAuth';
+
 export default async function handler (
   req: NextApiRequest,
   res: NextApiResponse
@@ -16,8 +18,4 @@ export default async function handler (
     console.log(error);
     return res.status(400).end();
   }
-}
-
-function serverAuth(req: NextApiRequest): { currentUser: any; } | PromiseLike<{ currentUser: any; }> {
-  throw new Error("Function not implemented.");
 }
