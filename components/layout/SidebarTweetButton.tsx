@@ -51,7 +51,7 @@ const SidebarTweetButton = () => {
           text-white
           text-[20px]
         ">
-          Whisper
+          Twisper
         </p>
       </div>
     </div>

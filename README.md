@@ -1,10 +1,10 @@
 # Twisper 💬
 
-Twisper is a microblogging application, heavily inspired by Twitter, where users can share their thoughts with others, interact through 'Whisper' likes and comments, follow others, and more!
+Twisper is a microblogging application, heavily inspired by Twitter, where users can share their thoughts with others, interact through 'Twisper' likes and comments, follow others, and more!
 
 ## 🌟 Features
 
-- 📝 Create, Read, Update, and Delete 'Whispers'
+- 📝 Create, Read, Update, and Delete 'Twisper'
 - 👥 User Authentication and Profile Management
 - 👣 Follow / Unfollow Users
 - 🔔 Real-Time Notifications
