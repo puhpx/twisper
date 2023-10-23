@@ -1,3 +1,4 @@
+import React from "react";
 import { useRouter } from "next/router";
 import { ClipLoader } from "react-spinners";
 
@@ -6,7 +7,7 @@ import usePost from "../../hooks/usePost";
 import Header from "../../components/Header";
 import Form from "../../components/Form";
 import PostItem from "../../components/posts/PostItem";
-import React from "react";
+import CommentFeed from "../../components/posts/CommentFeed";
 
 const PostView = () => {
   const router = useRouter();
@@ -26,7 +27,12 @@ const PostView = () => {
     <>
       <Header showBackArrow label="Tweet" />
       <PostItem data={fetchedPost} />
-      <Form postId={postId as string} isComment placeholder="Twisper your reply" />
+      <Form
+        postId={postId as string}
+        isComment
+        placeholder="Twisper your reply"
+      />
+      <CommentFeed comments={fetchedPost?.comments} />
     </>
    );
 }
